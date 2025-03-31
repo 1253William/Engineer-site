@@ -1,56 +1,113 @@
+import Link from 'next/link'
+import Marquee from 'react-fast-marquee'
 
-import Link from "next/link"
-
-export default function Home1() {
+export default function Home2() {
 	return (
 		<>
 
-			<section className="section-hero-1 position-relative pt-200 pb-120 overflow-hidden">
-				<div className="container position-relative z-3">
-					<div className="row">
-						<div className="col-lg-6 col-md-12">
-							<span className="text-dark">👋 Hi there, I'm William</span>
-							<h1 className="ds-2 mb-3">Crafting Intuitive <span className="text-primary-1">Digital Experiences</span></h1>
-							<p className="text-300 mb-6">I assist individuals and brands in achieving their objectives by creating and developing user-focused digital products and interactive experiences.</p>
-							<Link href="/assets/resume.pdf" className="btn btn-gradient me-2" target="_blank">
-								Download CV
-								<i className="ri-download-line ms-2" />
-							</Link>
-							<Link href="/#contact" className="btn btn-outline-secondary d-inline-flex align-items-center">
-								<span>Hire me</span>
-								<i className="ri-arrow-right-line ms-2" />
-							</Link>
-							<p className="text-400 mt-6 mb-3">+ 12 years with professional design software</p>
-							<div className="d-flex gap-3">
-								<div className="brand-logo icon-xl icon-shape rounded-3 bg-900">
-									<img src="/assets/imgs/hero/hero-1/brand-1.png" alt="brand" />
+			<section id="about" className="section-hero-2 position-relative pt-130 pb-3">
+				<div className="container hero-2">
+					<div className="border border-1 rounded-3">
+						<div className="box-linear-animation position-relative z-1">
+							<div className="row align-items-end py-60">
+								<div className="col-lg-5 ps-lg-5 text-lg-start text-center">
+									<div className="position-relative mb-lg-0 mb-5">
+										<img src="assets/imgs/home-page-2/hero-1/img1.jpg" alt="zelio" />
+										<div className="position-absolute end-0 top-100 translate-middle-y icon-decorate">
+											{/* <img src="assets/imgs/home-page-2/hero-1/img1.jpg" alt="zelio" /> */}
+										</div>
+									</div>
 								</div>
-								<div className="brand-logo icon-xl icon-shape rounded-3 bg-900">
-									<img src="/assets/imgs/hero/hero-1/brand-2.png" alt="brand" />
-								</div>
-								<div className="brand-logo icon-xl icon-shape rounded-3 bg-900">
-									<img src="/assets/imgs/hero/hero-1/brand-3.png" alt="brand" />
-								</div>
-								<div className="brand-logo icon-xl icon-shape rounded-3 bg-900">
-									<img src="/assets/imgs/hero/hero-1/brand-4.png" alt="brand" />
-								</div>
-								<div className="brand-logo icon-xl icon-shape rounded-3 bg-900">
-									<img src="/assets/imgs/hero/hero-1/brand-5.png" alt="brand" />
-								</div>
-								<div className="brand-logo icon-xl icon-shape rounded-3 bg-900 d-none d-md-flex">
-									<img src=" assets/imgs/hero/hero-1/brand-6.png" alt="brand" />
+								<div className="col-lg-6 mx-lg-auto col-md-12">
+									<div className="p-lg-0 p-md-8 p-3">
+										<div className="text-secondary-2 d-flex align-items-center">
+											&lt;span&gt;
+											<div className="text-dark">
+												<div className="typewriter">
+													<h1 className="fs-6 fw-medium">Hey, I’m William</h1>
+												</div>
+											</div>
+											&lt;/span&gt;
+										</div>
+										<h3 className="fs-20 my-3">Software<span className="text-linear-4">{'{'}Backend{'}'}</span>Engineer<span className="flicker"></span></h3>
+										<p className="mb-6 text-secondary-2">&lt;p&gt;<span className="text-dark">With over 4 years of experience </span>
+											<span className="text-secondary-2">architecting</span> and,
+											<span className="text-secondary-2">developing scalable</span>,
+											<span className="text-secondary-2">high-performant</span>,
+											<span className="text-secondary-2">backend systems</span><span className="text-dark">
+												  for enterprise applications, mobility & transport, and financial services.</span>&lt;/p&gt;</p>
+										<div className="row">
+											<div className="col-7">
+												{/* Carausel Scroll */}
+												<Marquee className="carouselTicker carouselTicker-left position-relative z-1 mt-lg-0 mt-8">
+													<ul className="carouselTicker__list ">
+														<li className="carouselTicker__item">
+															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
+																<svg role="img" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+																	<rect width="512" height="512" fill="#3178C6"/>
+																	<text x="50%" y="55%" font-family="Arial" font-size="200" fill="white" text-anchor="middle" dominant-baseline="middle">TS</text>
+																	</svg>
+															</Link>
+														</li>
+														<li className="carouselTicker__item">
+															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
+																<img src="assets/imgs/home-page-2/hero-1/icon-2.svg" alt="brand" />
+															</Link>
+														</li>
+														<li className="carouselTicker__item">
+															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
+																<svg role="img" viewBox="0 0 256 156" xmlns="http://www.w3.org/2000/svg">
+																						<text x="10" y="90" font-family="Arial" font-size="80" fill="#FF9900">AWS</text>
+																						</svg>
+															</Link>
+														</li>
+														<li className="carouselTicker__item">
+															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
+																<img src="assets/imgs/home-page-2/hero-1/icon-3.svg" alt="brand" />
+															</Link>
+														</li>
+														<li className="carouselTicker__item">
+															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
+																	<svg role="img" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+																				<circle cx="200" cy="200" r="180" stroke="#E535AB" stroke-width="20" fill="none"/>
+																				<text x="50%" y="55%" font-family="Arial" font-size="100" fill="#E535AB" text-anchor="middle" dominant-baseline="middle">GQL</text>
+																				</svg>
+															</Link>
+														</li>
+														<li className="carouselTicker__item">
+															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
+																<img src="assets/imgs/home-page-2/hero-1/icon-4.svg" alt="brand" />
+															</Link>
+														</li>
+														<li className="carouselTicker__item">
+															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
+																<svg role="img" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+																<circle cx="128" cy="128" r="128" fill="#00ADD8"/>
+																<text x="50%" y="55%" font-family="Arial" font-size="100" fill="white" text-anchor="middle" dominant-baseline="middle">Go</text>
+																</svg>
+															</Link>
+														</li>
+													</ul>
+												</Marquee>
+											</div>
+											<div className="col-5 d-flex align-items-end">
+												<span className="fs-6 text-300 mb-2">...and more</span>
+											</div>
+										</div>
+										<Link href="assets/WilliamOfosuParwar-CV.pdf" className="btn me-2 text-300 ps-0 mt-4" target="_blank" download>
+											<i className="ri-download-line text-primary-2" />
+											[ Download my CV ]
+										</Link>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div className="shape-1 position-absolute bottom-0 start-50 z-1 ms-10 d-none d-md-block">
-					<img className="position-relative z-1 filter-gray" src="/assets/imgs/hero/hero-1/man.png" alt="man" />
-					<div className="position-absolute top-50 start-0 translate-middle z-0 mt-8 ms-10 ps-8">
-						<img className="ribbonRotate" src="/assets/imgs/hero/hero-1/decorate.png" alt="" />
-					</div>
+				<div className="background position-absolute top-0 start-0 w-100 h-100">
+					<img className="bg-w" src="assets/imgs/home-page-2/hero-1/bg.png" alt="zelio" />
+					<img className="bg-d" src="assets/imgs/home-page-2/hero-1/bg-dark.png" alt="zelio" />
 				</div>
-				<div className="position-absolute top-0 start-0 w-100 h-100 filter-invert" data-background="assets/imgs/hero/hero-1/background.png" />
 			</section>
 
 		</>

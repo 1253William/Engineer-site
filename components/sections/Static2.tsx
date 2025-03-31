@@ -18,7 +18,7 @@ export default function Static2() {
 												<CountUp className="odometer text-dark fw-medium" enableScrollSpy={true} end={4} />
 												<span className="fs-50 text-300 mb-0">+</span>
 											</h2>
-											<p className="fs-6 mb-0 text-dark">Year Experience</p>
+											<p className="fs-6 mb-0 text-dark">Years Experience</p>
 										</div>
 									</div>
 								</div>
