@@ -28,8 +28,8 @@ const dmMono = DM_Mono({
 })
 
 export const metadata: Metadata = {
-	title: "Zelio - Personal Portfolio Template",
-	description: "Zelio - Personal Portfolio Template",
+	title: "William Ofosu Parwar",
+	description: "A dedicated and seasoned software backend engineer based in Accra, Ghana.",
 }
 
 export default function RootLayout({

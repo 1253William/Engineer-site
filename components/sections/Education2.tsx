@@ -20,7 +20,7 @@ export default function Education2() {
 										<ul className="ps-3">
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2020-2024:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">2019-2023:</p>
 													<div>
 														<span className="text-primary-2">University of Ghana</span>
 														<p className="text-dark">Bsc. Mathematics & Statistics</p>
@@ -29,7 +29,7 @@ export default function Education2() {
 											</li>
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2018-2019:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">2022:</p>
 													<div>
 														<span className="text-primary-2">Andela</span>
 														<p className="text-dark">Certification in React and Redux, Node.js Developer Course</p>
@@ -38,7 +38,7 @@ export default function Education2() {
 											</li>
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2015-2016:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">2023:</p>
 													<div>
 														<span className="text-primary-2">African Leadership Experience (ALX)</span>
 														<p className="text-dark">Specialization in Backend Web Development</p>
@@ -47,7 +47,7 @@ export default function Education2() {
 											</li>
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2013-2015:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">2023:</p>
 													<div>
 														<span className="text-primary-2">University of Hong-Kong</span>
 														<p className="text-dark">Certification in Software Engineering: Implementation & Testing</p>
@@ -73,7 +73,7 @@ export default function Education2() {
 									<ul className="ps-3">
 										<li className="position-relative z-1 mb-3">
 											<div className="d-flex gap-2">
-												<p className="text-300 text-nowrap fw-regular mb-0">2023-2024:</p>
+												<p className="text-300 text-nowrap fw-regular mb-0">2025:</p>
 												<div>
 													<span className="text-primary-2">Google Cultural Research Contributor</span>
 													<p className="text-dark">Insights on Ghanaian cultural artifacts for hyperlocal knowledge, community insights, and historical research.</p>
@@ -82,7 +82,7 @@ export default function Education2() {
 										</li>
 										<li className="position-relative z-1 mb-3">
 											<div className="d-flex gap-2">
-												<p className="text-300 text-nowrap fw-regular mb-0">2021-2013:</p>
+												<p className="text-300 text-nowrap fw-regular mb-0">2024:</p>
 												<div>
 													<span className="text-primary-2">Distributed systems & cloud-based microservices.</span>
 													<p className="text-dark">Exploring Roy Fielding's REST: Principles and Applications</p>
@@ -91,7 +91,7 @@ export default function Education2() {
 										</li>
 										<li className="position-relative z-1 mb-3">
 											<div className="d-flex gap-2">
-												<p className="text-300 text-nowrap fw-regular mb-0">2019-2020:</p>
+												<p className="text-300 text-nowrap fw-regular mb-0">2025:</p>
 												<div>
 													<span className="text-primary-2">Machine Learning (ML) & Event-driven architecture</span>
 													<p className="text-dark">Real-Time Fraud Detection System: Enhancing Security for High-Volume Transactions.</p>
