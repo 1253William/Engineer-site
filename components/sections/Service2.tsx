@@ -18,11 +18,9 @@ export default function Service2() {
 										<span className="text-linear-4 d-flex align-items-center"> Expertise </span>
 									</div>
 									<h3>
-										Designing solutions
-										<span className="text-300">
-											customized<br />
-											to meet your requirements
-										</span>
+										Designing solutions  
+											  customized<br />
+											to meet business requirements
 									</h3>
 								</div>
 								<div className="container mt-5">

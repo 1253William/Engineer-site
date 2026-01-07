@@ -57,11 +57,11 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
 											<i className="ri-github-fill fs-18" />
 										</Link>
 									</div>
-									<div className="burger-icon burger-icon-white border rounded-3" onClick={handleMobileMenu}>
+									{/* <div className="burger-icon burger-icon-white border rounded-3" onClick={handleMobileMenu}>
 										<span className="burger-icon-top" />
 										<span className="burger-icon-mid" />
 										<span className="burger-icon-bottom" />
-									</div>
+									</div> */}
 								</div>
 							</div>
 							<ThemeSwitch />

@@ -32,7 +32,7 @@ export default function Education2() {
 													<p className="text-300 text-nowrap fw-regular mb-0">2022:</p>
 													<div>
 														<span className="text-primary-2">Andela</span>
-														<p className="text-dark">Certification in React and Redux, Node.js Developer Course</p>
+														<p className="text-dark">Professional Certification in React and Redux, Node.js Developer Course</p>
 													</div>
 												</div>
 											</li>
@@ -50,7 +50,7 @@ export default function Education2() {
 													<p className="text-300 text-nowrap fw-regular mb-0">2023:</p>
 													<div>
 														<span className="text-primary-2">University of Hong-Kong</span>
-														<p className="text-dark">Certification in Software Engineering: Implementation & Testing</p>
+														<p className="text-dark">Professional Certification in Software Engineering: Implementation & Testing</p>
 													</div>
 												</div>
 											</li>

@@ -81,14 +81,14 @@ export default function Coporation2() {
 									<ul className="ps-3 d-flex flex-column justify-content-around h-100 position-relative">
 										<li className="position-relative z-1">
 											<div className="d-flex align-items-center gap-2">
-												<p className="text-300 text-nowrap">17 Mar:</p>
-												<span className="text-dark">E-commerce-Platform-Backend</span>
-											</div>
+												<p className="text-300 text-nowrap">17 Dec:</p>
+												<span className="text-dark">Auth-Microservice</span>
+											</div> 
 										</li>
 										<li className="position-relative z-1">
 											<div className="d-flex align-items-center gap-2">
-												<p className="text-300 text-nowrap">15 Mar:</p>
-												<span className="text-dark">Yango-Ride-Simulation</span>
+												<p className="text-300 text-nowrap">15 Nov:</p>
+												<span className="text-dark">Regressor-Traffic-Prediction-Model</span>
 											</div>
 										</li>
 										<li className="position-relative z-1">

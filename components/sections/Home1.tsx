@@ -30,7 +30,7 @@ export default function Home2() {
 											&lt;/span&gt;
 										</div>
 										<h3 className="fs-20 my-3">Software<span className="text-linear-4">{'{'}Backend{'}'}</span>Engineer<span className="flicker"></span></h3>
-										<p className="mb-6 text-secondary-2">&lt;p&gt;<span className="text-dark">With over 4 years of experience </span>
+										<p className="mb-6 text-secondary-2">&lt;p&gt;<span className="text-dark">With over 5 years of experience </span>
 											<span className="text-secondary-2">architecting</span> and,
 											<span className="text-secondary-2">developing scalable</span>,
 											<span className="text-secondary-2">high-performant</span>,
@@ -94,7 +94,7 @@ export default function Home2() {
 												<span className="fs-6 text-300 mb-2">...and more</span>
 											</div>
 										</div>
-										<Link href="assets/WilliamOfosuParwar-CV.pdf" className="btn me-2 text-300 ps-0 mt-4" target="_blank" download>
+										<Link href="assets/Parwar_William_Ofosu_Resume.pdf" className="btn me-2 text-300 ps-0 mt-4" target="_blank" download>
 											<i className="ri-download-line text-primary-2" />
 											[ Download my CV ]
 										</Link>

@@ -113,13 +113,13 @@ export default function Skills2() {
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
 																	<p className="text-dark text-nowrap mb-0">Back-End:</p>
-																	<span className="text-300">Node.js, Express, Python, Golang</span>
+																	<span className="text-300">TypeScript, Node.js, Python, Golang</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
 																	<p className="text-dark text-nowrap mb-0">Databases:</p>
-																	<span className="text-300">MySQL, PostgreSQL/Supabase, MongoDB</span>
+																	<span className="text-300">MySQL, PostgreSQL, MongoDB</span>
 																</div>
 															</li>
 															<li className="mb-3">
